@@ -22,7 +22,7 @@
   {#if !$currentGame}
     <section class="jumbotron text-center">
       <div class="container">
-        <h1>Commence à jouer maintenant 👾 !</h1>
+        <h1>Commence à jouer maintenant 👾 !!!!</h1>
         <p class='mt-3'>
           <button type='button' class="btn btn-success btn-lg" on:click={play('random')}>Mode facile</button>
           <button type='button' class="btn btn-danger btn-lg" on:click={play('wopr')}>Joue à nouveau à WOPR !</button>
